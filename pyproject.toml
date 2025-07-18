@@ -1,0 +1,15 @@
+[project]
+name = "mcp-carros"
+version = "0.1.0"
+description = "Desafio Técnico – Vaga de Desenvolvedor Python | C2S"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=37.4.2",
+    "faker-vehicle>=0.2.0",
+    "langchain-groq>=0.3.6",
+    "mcp-use>=1.3.6",
+    "mcp[cli]>=1.11.0",
+    "pytest>=8.4.1",
+    "sqlalchemy>=2.0.41",
+]
